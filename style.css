@@ -232,5 +232,139 @@ article div p{
     margin: auto;
 }
 
+/* Ai generate */
+:root {
+  --navy: #0f1424;
+  --text-dark: #111827;
+  --text-gray: #6b7280;
+  --blue: #2f6fed;
+  --blue-hover: #1f56d1;
+  --border: #e5e7eb;
+  --bg: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+}
+
+.faq-section {
+  padding: 96px 24px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.faq-eyebrow {
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+
+.faq-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin: 0 0 12px;
+}
+
+.faq-subtext {
+  font-size: 15px;
+  color: var(--text-gray);
+  margin: 0 0 48px;
+}
+
+.faq-list {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faq-item {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 4px 20px;
+  background: #fff;
+  transition: border-color 0.2s ease;
+}
+
+.faq-item[open] {
+  border-color: var(--blue);
+}
+
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 18px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: var(--blue);
+  margin-left: 16px;
+  transition: transform 0.2s ease;
+}
+
+.faq-item[open] .faq-icon {
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-gray);
+  padding: 0 0 20px;
+  margin: 0;
+}
+
+.faq-footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: var(--text-gray);
+}
+
+.faq-footer a {
+  color: var(--blue);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.faq-footer a:hover {
+  color: var(--blue-hover);
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .faq-section { padding: 64px 20px; }
+  .faq-heading { font-size: 26px; }
+}
+
+
 
 
