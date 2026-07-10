@@ -1,4 +1,6 @@
-body{
+*{
+    padding: 0;
+    margin: 0;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -27,7 +29,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    margin-top: 20px;
+    margin:auto;
+    padding: 12px 0;
 
 }
 
@@ -57,6 +60,7 @@ nav ul li a{
     height: 850px;
     display: flex;
     position: relative;
+    margin-bottom: 40px;
     
 }
 
@@ -89,5 +93,49 @@ nav ul li a{
     text-wrap-style: balance;
 }
 
+/* speakers card section */
+
+.speaker-card-txt{
+    text-align: center;
+    font-weight: bolder;
+    font-size:xx-large;
+    margin-bottom: 25px;
+    
+    
+}
+
+.speakers-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+article{
+    border: solid 1px #E5E7EB;
+    border-radius: 10px;
+
+}
+article div{
+    padding: 10px;
+    margin: 10px;
+}
+
+article div span{
+    color: #2563EB;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article div h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight:bolder;
+    font-size:larger
+}
+article div p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
