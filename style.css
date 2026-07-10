@@ -18,6 +18,20 @@
 
 }
 
+.button-outline{
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #2563EB;
+    font-weight: bold;
+    color: #2563EB;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+
 
 .container{
     max-width: 1200px;
@@ -48,7 +62,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration:none;
-    color: black;
+    color: #666;
 }
 
 /* herosection style */
@@ -97,8 +111,8 @@ nav ul li a{
 
 .speaker-card-txt{
     text-align: center;
-    font-weight: bolder;
-    font-size:xx-large;
+    font-weight: 700;
+    font-size: 2.1rem;;
     margin-bottom: 25px;
     
     
@@ -125,6 +139,7 @@ article div span{
     color: #2563EB;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight:500;
 }
 
 article div h3{
@@ -136,6 +151,86 @@ article div h3{
 article div p{
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #666;
 }
+
+/* secure your spot */
+
+.secure-title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.secure-title h2{
+    
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 12px;
+
+}
+
+.secure-title p{
+    font-size: 1.125rem;
+    color: #666;
+}
+
+.secure-card{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    margin-bottom: 40px;
+}
+
+.secure-card-box{
+    border: solid 1px #666;
+    border-radius: 5px;
+    padding: 30px;
+    
+}
+
+.secure-card-box ul{
+    text-align:justify;
+    margin-top: 20px;
+    margin-bottom: 15px;
+     
+}
+
+.secure-card-box h2{
+    color: #0D1B2A;
+    font-size: 40px;
+}
+
+.secure-card-box p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.secure-card-second{
+    background-color: #0D1B2A;
+    color: white;
+}
+
+::marker{
+    color: #81a6f5fa;
+}
+
+.secure-card-second h2{
+    color: white;
+    
+}
+
+.secure-card-second p{
+    color: #81a6f5fa;
+}
+
+.secure-card-third{
+    background-color: #F8F9FB;
+    
+}
+.secure-card-box button{
+    display: block;
+    margin: auto;
+}
+
 
 
