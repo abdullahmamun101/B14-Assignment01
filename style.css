@@ -366,5 +366,22 @@ body {
 }
 
 
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #0D1B2A;
+    padding: 40px;
+    color: #6b7280;
+    
+    
+}
 
+.footer-left{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    color: #6b7280;
+}
 
